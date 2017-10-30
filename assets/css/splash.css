@@ -1,0 +1,24 @@
+body {
+	background: url("https://i.imgur.com/iWHOvYn.jpg");
+	background-size: cover;
+}
+
+h1 {
+	font-size: 58px;
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+    color: white;
+    text-shadow: 2px 2px black;
+    position: absolute;
+    bottom: 0px;
+}
+
+#vamonos {
+	text-align: center;
+    margin: 0 auto;
+    color: darkblue;
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    bottom: 1%;
+}
