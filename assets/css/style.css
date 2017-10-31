@@ -1,7 +1,76 @@
 body {
-	background: url("img src="https://cdn.iconscout.com/public/images/icon/free/png-512/narcos-logo-tv-show-series-3840fef935e4e53f-512x512.png);
+	background: url("http://files.all-free-download.com//downloadfiles/wallpapers/1920_1080/mortal_kombat_x_stage_13320.jpg");
 }
 
 h1 {
 	font-family: 'Anton', sans-serif;
+	font-size: 150px;
+    letter-spacing: 44px;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    text-shadow: 6px 7px black;
 }
+
+
+#characters {
+	    width: 25.21%;
+    position: absolute;
+    left: 36%;
+     right: 48%; 
+     /*margin: 0 auto;*/
+}
+
+#characterpoints {
+	color: white;
+
+    
+}
+
+#fight {
+	    bottm: 0px;
+    position: absolute;
+    /* bottom: 0px; */
+    margin: 0 auto;
+    left: 47%;
+    right: 50%;
+    top: 80%;
+}
+
+
+.narcoone, .narcotwo, .narcothree, .narcofour {
+	width: 120px;
+	height: 160px;
+}
+
+h2, h3 {
+	color:white;
+	font-size: 24px;
+	text-align: center;
+}
+
+.opponenttwo {
+	 width: 14%;
+    height: 300px;
+    float: right;
+    /*background-color: grey;*/
+    /*opacity: 0.2;*/
+    margin-right: 473px;
+    margin-top: 160px;
+
+
+    
+}
+
+  .opponentone {
+
+  	width: 14%;
+    height: 300px;
+    float: left;
+    /*background-color: grey;*/
+    /*opacity: 0.2;*/
+    margin-left: 412px;
+    margin-top: 158px;
+
+
+  	}  
