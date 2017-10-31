@@ -2,12 +2,15 @@ $(document).ready(function () {
 
 	
 
-	var pabloattack;
+	var pabloattack = 120;
 	var carilloattack;
-	var pachoattack;
-	var donbernaattach;
+	var pachoattack = 160;
+	var donbernaattack;
+	// var pablodamage = 40;
+	// var pachodamage = 25;
 
 	var attackvalues = [120, 140, 160, 180];
+	
 
 	for (var i = 0; i < 1; i++) {
 
@@ -68,9 +71,45 @@ $(".narcothree").on("click", function() {
 	$(".opponenttwo").append(pachorpg);
 });
 
-$("#fight").on("click", function(){
+
+
+$(".fight").on("click", function(){
+
+	var pablodamage = [40, 60, 80];
+	var pachodamage = 25;
 	
-})
+
+	var pachonew = (pachoattack - pablodamage[0]);
+	console.log(pachonew);
+
+	var pablonew = (pabloattack - pachodamage);
+	console.log(pablonew);
+
+	if (pachonew <= 110) {
+
+		pachonewone = (pachonew - pablodamage[1]);
+		console.log(pachonewone);
+		pablonew = (pabloattack - pachodamage);
+		console.log(pablonew);
+
+		if (pachonewone <= 60) {
+
+		pachonewtwo = (pachonewone-pablodamage[2]);
+		console.log(pachonewtwo);
+
+		if(pachonewtwo <=0) {
+			alert("Game over!");
+		}
+	}
+	
+	}
+
+	
+
+	
+	})
+
+
 
 
 

@@ -27,8 +27,8 @@ h1 {
     
 }
 
-#fight {
-	    bottm: 0px;
+.fight {
+	    
     position: absolute;
     /* bottom: 0px; */
     margin: 0 auto;
